@@ -1,0 +1,790 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-20 16:58+0000\n"
+"PO-Revision-Date: 2022-03-20 17:04+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: fi\n"
+
+#: author.php:33
+#, php-format
+msgid "Author: <span class=\"post-author\">%s</span>"
+msgstr "Kirjailija: <span class=\"post-author\">%s</span>"
+
+#: category.php:31
+#, php-format
+msgid "Category: %s"
+msgstr "Kategoria: %s"
+
+#: comments.php:24
+msgid "Post Comments"
+msgstr "Lähetä kommentit"
+
+#: comments.php:39
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%s&rdquo;"
+msgstr "Yksi kommentti &ldquo;%s&rdquo;"
+
+#: comments.php:43
+#, php-format
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s kommentoi"
+msgstr[1] "%s kommentteja"
+
+#: comments.php:50
+msgid "Leave a comment."
+msgstr "Jätä kommentti."
+
+#: comments.php:76
+msgid "Newer Comments"
+msgstr "Uudemmat Kommentit"
+
+#: comments.php:77
+msgid "Older Comments"
+msgstr "Vanhemmat Kommentit"
+
+#: comments.php:89
+msgid "Comments"
+msgstr "Kommentit"
+
+#: comments.php:103
+msgid "Comments are closed."
+msgstr "Kommenttien lisääminen on estetty."
+
+#: search.php:35
+#, php-format
+msgctxt "Search results count"
+msgid "Search: No Results for <span class=\"search-query\">%1$s</span>"
+msgstr "Haku: Ei tuloksia haulle <span class=\"search-query\">%1$s</span>"
+
+#: search.php:41
+#, php-format
+msgctxt "Search results count"
+msgid "Search: %1$s Result for <span class=\"search-query\">%2$s</span>"
+msgid_plural ""
+"Search: %1$s Results for <span class=\"search-query\">%2$s</span>"
+msgstr[0] ""
+"Haku: Ei tuloksia haulle <span class = \"search-query\">%1$s</span>"
+msgstr[1] ""
+"Haku: %1$s Tulokset haulle <span class=\"search-query\">%2$s</span>"
+
+#: searchform.php:20
+msgctxt "Search label"
+msgid "Search for:"
+msgstr "Etsiä:"
+
+#: searchform.php:21
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Hae  &hellip;"
+
+#: searchform.php:23
+msgctxt "Submit button"
+msgid "Search"
+msgstr "Hae"
+
+#: tag.php:31
+#, php-format
+msgid "Tag: %s"
+msgstr "Lappu: %s"
+
+#: taxonomy.php:33
+#, php-format
+msgid "Taxonomy: %1$s: %2$s"
+msgstr "Taksonomia: %1$s: %2$s"
+
+#: inc/config.php:240
+msgid "Primary Menu"
+msgstr "Päävalikko"
+
+#: inc/config.php:256
+msgid "Image in Post"
+msgstr "Kuva postitse"
+
+#: inc/config.php:257
+msgid "Original size"
+msgstr "Alkuperäinen koko"
+
+#: inc/config.php:269
+msgid "Primary Sidebar"
+msgstr "Ensisijainen sivupalkki"
+
+#: inc/config.php:270
+msgid "This is the primary sidebar."
+msgstr "Tämä on ensisijainen sivupalkki."
+
+#: inc/config.php:274
+msgid "Header Sidebar"
+msgstr "Otsikon sivupalkki"
+
+#: inc/config.php:275
+msgid "This is the header sidebar."
+msgstr "Tämä on otsikon sivupalkki."
+
+#: inc/config.php:336
+msgid "Shop Page Sidebar"
+msgstr "Kauppasivun sivupalkki"
+
+#: inc/config.php:337
+msgid "This is the shop page sidebar for all layouts."
+msgstr "Tämä on kauppasivun sivupalkki kaikille asetteluille."
+
+#: inc/config.php:341
+msgid "Shop Product Page Sidebar"
+msgstr "Osta tuotesivun sivupalkki"
+
+#: inc/config.php:342
+msgid "This is the shop product page sidebar for all layouts."
+msgstr "Tämä on myymälän tuotesivun sivupalkki kaikille asetteluille."
+
+#: inc/config.php:346
+msgid "Shop Category Page Sidebar"
+msgstr "Kaupan luokkasivun sivupalkki"
+
+#: inc/config.php:347
+msgid "This is the shop category page sidebar for all layouts."
+msgstr "Tämä on myymäläsivun sivupalkki kaikille asetteluille."
+
+#: inc/config.php:351
+msgid "Shop Cart & Checkout Page Sidebar"
+msgstr "Ostoskori ja kassasivun sivupalkki"
+
+#: inc/config.php:352
+msgid "This is the shop cart & checkout page sidebar for all layouts."
+msgstr "Tämä on ostoskorin ja kassasivun sivupalkki kaikille asetteluille."
+
+#: inc/config.php:356
+msgid "Shop Account Page Sidebar"
+msgstr "Kauppatilin sivupalkki"
+
+#: inc/config.php:357
+msgid "This is the shop account page sidebar for all layouts."
+msgstr "Tämä on kauppatilin sivupalkki kaikille asetteluille."
+
+#: inc/config.php:365 inc/config.php:370
+msgid "my-account"
+msgstr "tilini"
+
+#: inc/template-functions.php:339
+msgctxt "Next post"
+msgid "Next"
+msgstr "Seuraava"
+
+#: inc/template-functions.php:340
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Edellinen"
+
+#: inc/classes/class-ipr-hooks.php:63
+msgid "Admin Phone No."
+msgstr "Järjestelmänvalvojan puhelinnumero"
+
+#: inc/classes/class-ipr-settings.php:76
+msgid "Background"
+msgstr "Tausta"
+
+#: inc/classes/class-ipr-settings.php:86
+msgid "Header"
+msgstr "Ylätunniste"
+
+#: inc/classes/class-ipr-settings.php:99
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: inc/classes/class-ipr-settings.php:100
+msgid "Footer content"
+msgstr "Alatunnisteen sisältö"
+
+#: inc/classes/class-ipr-settings.php:121
+msgid "Display Site Title & Tagline"
+msgstr "Näytä sivuston otsikko ja tunnuslause"
+
+#: inc/classes/class-ipr-settings.php:146
+msgid "Additional JS"
+msgstr "LisäJS"
+
+#: inc/classes/class-ipr-settings.php:147
+msgid "Add custom header & footer js."
+msgstr "Lisää mukautettu otsikko ja alatunniste js."
+
+#: inc/classes/class-ipr-settings.php:169
+msgid "Custom header JS"
+msgstr "Muokattu otsikon js"
+
+#: inc/classes/class-ipr-settings.php:170
+msgid "Custom inline header js. Exclude <script></script> tag."
+msgstr "Muokattu rivin otsikko js. Sulje pois <script></script> -tagi."
+
+#: inc/classes/class-ipr-settings.php:196
+msgid "Custom footer JS"
+msgstr "Mukautettu alatunniste js"
+
+#: inc/classes/class-ipr-settings.php:197
+msgid "Custom inline footer js. Exclude <script></script> tag."
+msgstr ""
+"Mukautettu rivien alatunniste js. Sulje pois <script></script> -tagi."
+
+#: inc/classes/class-ipr-settings.php:223
+msgid "Custom admin header JS"
+msgstr "Muokattu järjestelmänvalvojan otsikot JS"
+
+#: inc/classes/class-ipr-settings.php:224
+msgid "Custom inline admin header js. Exclude <script></script> tag."
+msgstr ""
+"Muokattu sisäänrakennettu järjestelmänvalvojan otsikko js. Sulje pois "
+"<script></script> -tagi."
+
+#: inc/classes/class-ipr-settings.php:250
+msgid "Custom admin footer JS"
+msgstr "Mukautettu järjestelmänvalvojan alatunniste JS"
+
+#: inc/classes/class-ipr-settings.php:251
+msgid "Custom inline admin footer js. Exclude <script></script> tag."
+msgstr ""
+"Mukautettu sisäinen järjestelmänvalvojan alatunniste js. Sulje pois "
+"<script> </script> -tagi."
+
+#: inc/classes/class-ipr-settings.php:281
+#: inc/woocommerce/class-ipr-woocommerce-customizer.php:59
+msgid "Theme"
+msgstr "Teema"
+
+#: inc/classes/class-ipr-settings.php:282
+msgid "Add theme specific settings."
+msgstr "Lisää teemakohtaiset asetukset."
+
+#: inc/classes/class-ipr-settings.php:308
+#: inc/woocommerce/class-ipr-woocommerce-customizer.php:86
+msgid "Breadcrumbs"
+msgstr "Leivänmuruja"
+
+#: inc/classes/class-ipr-settings.php:309
+msgid "Display or hide the inner page breadcrumbs."
+msgstr "Näytä tai piilota sisäsivun leivänmuru."
+
+#: inc/classes/class-ipr-settings.php:361
+msgid "Hero"
+msgstr "Sankari"
+
+#: inc/classes/class-ipr-settings.php:362
+msgid "Front page hero image and details"
+msgstr "Etusivun sankarikuva ja yksityiskohdat"
+
+#: inc/classes/class-ipr-settings.php:386
+msgid "Front Page Hero Area"
+msgstr "Etusivun sankarialue"
+
+#: inc/classes/class-ipr-settings.php:387
+msgid "Display or hide the front page hero section."
+msgstr "Näytä tai piilota etusivun sankariosa."
+
+#: inc/classes/class-ipr-settings.php:432
+msgid "Hero Title"
+msgstr "Hero otsikko"
+
+#: inc/classes/class-ipr-settings.php:433
+msgid "Modify the front page hero section title"
+msgstr "Muokkaa etusivun sankariosan otsikkoa"
+
+#: inc/classes/class-ipr-settings.php:457
+msgid "Hero Description"
+msgstr "Hero kuvaus"
+
+#: inc/classes/class-ipr-settings.php:458
+msgid "Modify the front page hero section description"
+msgstr "Muokkaa etusivun sankariosan kuvausta"
+
+#: inc/classes/class-ipr-settings.php:482
+msgid "Button Page Link"
+msgstr "Nappisivulinkki"
+
+#: inc/classes/class-ipr-settings.php:483
+msgid "Link to page via button"
+msgstr "Linkki sivulle painikkeella"
+
+#: inc/classes/class-ipr-settings.php:498 templates/front/hero.php:28
+#: templates/front/hero_2.php:28
+msgid "Learn More"
+msgstr "Lisätietoja"
+
+#: inc/classes/class-ipr-settings.php:507
+msgid "Hero Button Text"
+msgstr "Hero-painikkeen teksti"
+
+#: inc/classes/class-ipr-settings.php:508
+msgid "Hero button text"
+msgstr "Hero-painikkeen teksti"
+
+#: inc/classes/class-ipr-settings.php:534
+msgid "Hero Image"
+msgstr "Sankarikuva"
+
+#: inc/classes/class-ipr-settings.php:535
+msgid "Add the hero section background image"
+msgstr "Lisää sankariosan taustakuva"
+
+#: inc/classes/class-ipr-settings.php:566
+msgid "Hero Background Color"
+msgstr "Hero taustaväri"
+
+#: inc/classes/class-ipr-settings.php:567
+msgid "Hero background color"
+msgstr "Hero taustaväri"
+
+#: inc/classes/class-ipr-settings.php:591
+msgid "Hero Overlay"
+msgstr "Sankarin peittokuva"
+
+#: inc/classes/class-ipr-settings.php:592
+msgid "Display an overlay with opacity on the hero image."
+msgstr "Näytä sankarikuvan peittokuva, jossa on läpinäkymättömyys."
+
+#: inc/classes/class-ipr-settings.php:618
+msgid "Hero Overlay Color"
+msgstr "Hero-peittoväri"
+
+#: inc/classes/class-ipr-settings.php:619
+msgid "Hero overlay color"
+msgstr "Hero-peittoväri"
+
+#: inc/classes/class-ipr-settings.php:639
+msgid "Value must be between 0 and 100"
+msgstr "Arvon on oltava välillä 0 – 100"
+
+#: inc/classes/class-ipr-settings.php:650
+msgid "Hero Overlay Opacity"
+msgstr "Sankarin peittokuva läpinäkyvyys"
+
+#: inc/classes/class-ipr-settings.php:651
+msgid "Hero overlay opacity"
+msgstr "Sankarin peittokuva läpinäkyvyys"
+
+#: inc/classes/class-ipr-settings.php:841
+msgid "Comma separated list of category IDs only."
+msgstr "Pilkulla erotettu luettelo vain luokkatunnuksista."
+
+#: inc/classes/class-ipr-startup.php:58
+msgid "Small"
+msgstr "Pieni"
+
+#: inc/classes/class-ipr-startup.php:63
+msgid "Normal"
+msgstr "Normaali"
+
+#: inc/classes/class-ipr-startup.php:68
+msgid "Medium"
+msgstr "Keskikokoinen"
+
+#: inc/classes/class-ipr-startup.php:73
+msgid "Large"
+msgstr "Suuri"
+
+#: inc/classes/class-ipr-startup.php:78
+msgid "Big"
+msgstr "Iso"
+
+#: inc/functions/product.php:79
+#, php-format
+msgid "Theme Requires WooCommerce %1$s. Version %2$s installed"
+msgstr "Teema vaatii WooCommerce %1$s. Versio %2$s asennettu"
+
+#: inc/lib/acf-config.php:38
+msgid "WooCommerce Shop Page"
+msgstr "WooCommerce-kaupan sivu"
+
+#: inc/lib/acf-config.php:39
+msgid "WooCommerce Cart Page"
+msgstr "WooCommercen ostoskorisivu"
+
+#: inc/lib/acf-config.php:40
+msgid "WooCommerce Checkout Page"
+msgstr "WooCommerce Checkout -sivu"
+
+#: inc/lib/acf-config.php:41
+msgid "WooCommerce Account Page"
+msgstr "WooCommerce-tilisivu"
+
+#: inc/lib/acf/sample.php:25
+msgid "Sample Section"
+msgstr "Näyteosa"
+
+#: inc/lib/acf/sample.php:29
+msgid "Sample Label"
+msgstr "Näytteen etiketti"
+
+#: inc/woocommerce/class-ipr-woocommerce-customizer.php:60
+msgid "Add theme specific Woocommerce settings."
+msgstr "Lisää teemakohtaiset Woocommerce-asetukset."
+
+#: inc/woocommerce/class-ipr-woocommerce-customizer.php:87
+msgid "Display or hide the store pages breadcrumbs."
+msgstr "Näytä tai piilota kaupan sivujen leivänmuru."
+
+#: inc/woocommerce/class-ipr-woocommerce-customizer.php:128
+msgid "Product Pagination"
+msgstr "Tuotteen sivutus"
+
+#: inc/woocommerce/class-ipr-woocommerce-customizer.php:129
+msgid ""
+"Displays next and previous links on product pages. Hover reveals product "
+"details & thumbnail."
+msgstr ""
+"Näyttää seuraavan ja edellisen linkin tuotesivuilla. Hover paljastaa "
+"tuotetiedot ja pikkukuvan."
+
+#: inc/woocommerce/class-ipr-woocommerce-customizer.php:164
+msgid "Product Search"
+msgstr "Tuotehaku"
+
+#: inc/woocommerce/class-ipr-woocommerce-customizer.php:165
+msgid "Displays header product search box."
+msgstr "Näyttää otsikon tuotehakukentän."
+
+#: inc/woocommerce/class-ipr-woocommerce.php:654
+msgid "Add to basket"
+msgstr "Lisää ostoskoriin"
+
+#: inc/woocommerce/class-ipr-woocommerce.php:654
+#: inc/woocommerce/class-ipr-woocommerce.php:658
+#: inc/woocommerce/class-ipr-woocommerce.php:667
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: inc/woocommerce/class-ipr-woocommerce.php:658
+msgid "Select options"
+msgstr "Valitse vaihtoehdot"
+
+#: inc/woocommerce/class-ipr-woocommerce.php:661
+msgid "View products"
+msgstr "Näytä tuotteet"
+
+#: inc/woocommerce/class-ipr-woocommerce.php:664
+msgctxt "placeholder"
+msgid "Buy product"
+msgstr "Osta tuote"
+
+#: inc/woocommerce/class-ipr-woocommerce.php:876
+msgid "Random"
+msgstr "Satunnainen"
+
+#: inc/woocommerce/class-ipr-woocommerce.php:993
+msgid "Orders"
+msgstr "Tilaukset"
+
+#: inc/woocommerce/class-ipr-woocommerce.php:994
+msgid "Total Spent"
+msgstr "Yhteensä Käytetty"
+
+#: inc/woocommerce/template-functions.php:68
+msgid "Shop by Category"
+msgstr "Osta luokittain"
+
+#: inc/woocommerce/template-functions.php:89
+#: templates/global/404-product.php:31 templates/global/404-product.php:33
+msgid "Product Categories"
+msgstr "Tuoteryhmät"
+
+#: inc/woocommerce/template-functions.php:125
+msgid "New Products"
+msgstr "Uudet tuotteet"
+
+#: inc/woocommerce/template-functions.php:146
+msgid "Recent Products"
+msgstr "Viimeisimmät tuotteet"
+
+#: inc/woocommerce/template-functions.php:183
+msgid "We Recommend"
+msgstr "Suosittelemme"
+
+#: inc/woocommerce/template-functions.php:205
+msgid "Featured Products"
+msgstr "Esittelyssä olevat tuotteet"
+
+#: inc/woocommerce/template-functions.php:241
+#: inc/woocommerce/template-functions.php:262
+#: templates/global/404-product.php:38 templates/global/404-product.php:40
+msgid "Popular Products"
+msgstr "Suositut tuotteet"
+
+#: inc/woocommerce/template-functions.php:299
+msgid "On Sale"
+msgstr "Alennuksessa"
+
+#: inc/woocommerce/template-functions.php:321
+msgid "On Sale Products"
+msgstr "Myynnissä olevat tuotteet"
+
+#: inc/woocommerce/template-functions.php:357
+msgid "Best Sellers"
+msgstr "Myydyimmät"
+
+#: inc/woocommerce/template-functions.php:378
+msgid "Best Selling Products"
+msgstr "Myydyimmät tuotteet"
+
+#: templates/front/edit-link.php:22 templates/page/edit-link.php:22
+#: templates/single/edit-link.php:21
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Muokata <span class=\"screen-reader-text\">\"%s\"</span>"
+
+#: templates/global/404-product.php:22 templates/global/404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oho! Sivua ei löydy."
+
+#: templates/global/404-product.php:23 templates/global/404.php:23
+msgid "Return home?"
+msgstr "Palata kotiin?"
+
+#: templates/global/404-product.php:28 templates/global/404.php:27
+msgid "Nothing found at this location."
+msgstr "Mitään ei löydy tästä paikasta."
+
+#: templates/global/content-none.php:22
+msgid "Nothing to display."
+msgstr "Ei näytettävää."
+
+#: templates/global/content-none.php:33
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Oletko valmis julkaisemaan ensimmäisen viestisi? <a href=\"%1$s\">Aloita "
+"täältä</a>."
+
+#: templates/global/content-none.php:47
+msgid ""
+"Sorry, nothing matched your search terms. Please try again with different "
+"keywords."
+msgstr ""
+"Valitettavasti mikään ei vastannut hakutermejäsi. Yritä uudelleen eri "
+"avainsanoilla."
+
+#: templates/global/content-none.php:52
+msgid ""
+"We can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can "
+"help."
+msgstr "Emme löydä etsimääsi. Ehkä etsiminen voi auttaa."
+
+#: templates/global/loader.php:17
+msgid "loading..."
+msgstr "ladataan..."
+
+#: templates/global/skip-links.php:16
+msgid "Skip to navigation"
+msgstr "Siirry navigointiin"
+
+#: templates/global/skip-links.php:17
+msgid "Skip to content"
+msgstr "Siirry sisältöön"
+
+#: templates/global/breadcrumbs/archive-cpt.php:24
+#: templates/global/breadcrumbs/archive.php:20
+#: templates/global/breadcrumbs/author.php:20
+#: templates/global/breadcrumbs/category.php:20
+#: templates/global/breadcrumbs/date.php:31
+#: templates/global/breadcrumbs/home.php:20
+#: templates/global/breadcrumbs/page.php:20
+#: templates/global/breadcrumbs/search.php:20
+#: templates/global/breadcrumbs/single.php:20
+#: templates/global/breadcrumbs/tag.php:20
+#: templates/global/breadcrumbs/taxonomy.php:55
+#: woocommerce/global/breadcrumbs/account.php:24
+#: woocommerce/global/breadcrumbs/cart.php:25
+#: woocommerce/global/breadcrumbs/checkout.php:25
+msgid "Home"
+msgstr "Koti"
+
+#: templates/global/breadcrumbs/archive.php:21
+msgid "Archive"
+msgstr "Arkisto"
+
+#: templates/global/breadcrumbs/author.php:21
+msgid "Author"
+msgstr "Kirjailija"
+
+#: templates/global/breadcrumbs/category.php:21
+msgid "Category"
+msgstr "Kategoria"
+
+#: templates/global/breadcrumbs/date.php:18
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: templates/global/breadcrumbs/date.php:21
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: templates/global/breadcrumbs/date.php:24
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: templates/global/breadcrumbs/search.php:21
+msgid "Search"
+msgstr "Hae"
+
+#: templates/global/breadcrumbs/tag.php:21
+msgid "Tag"
+msgstr "Lappu"
+
+#: templates/global/breadcrumbs/taxonomy.php:19
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Asides"
+
+#: templates/global/breadcrumbs/taxonomy.php:22
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galleriat"
+
+#: templates/global/breadcrumbs/taxonomy.php:25
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Kuvat"
+
+#: templates/global/breadcrumbs/taxonomy.php:28
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videot"
+
+#: templates/global/breadcrumbs/taxonomy.php:31
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Lainausmerkit"
+
+#: templates/global/breadcrumbs/taxonomy.php:34
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Linkit"
+
+#: templates/global/breadcrumbs/taxonomy.php:37
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Tilat"
+
+#: templates/global/breadcrumbs/taxonomy.php:40
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: templates/global/breadcrumbs/taxonomy.php:43
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chatit"
+
+#: templates/global/footer/site-credit.php:32
+#, php-format
+msgid "Theme %1$s by %2$s."
+msgstr "Teema %1$s kirjoittanut %2$s."
+
+#: templates/global/header/site-navigation.php:19
+msgid "Primary Navigation"
+msgstr "Ensisijainen navigointi"
+
+#: templates/global/header/site-navigation.php:20
+msgid "Menu"
+msgstr "Valikko"
+
+#: templates/loop/content.php:26 templates/single/content.php:24
+#, php-format
+msgid "Continue reading %s"
+msgstr "Jatka %s lukemista"
+
+#: templates/loop/content.php:37 templates/page/content.php:27
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: templates/loop/footer.php:29 templates/single/taxonomy.php:23
+msgid "Posted in"
+msgstr "Lähetetty"
+
+#: templates/loop/footer.php:32 templates/single/taxonomy.php:26
+msgid "Tagged in"
+msgstr "Merkitty"
+
+#: templates/loop/meta.php:49 templates/single/meta.php:45
+msgid "Posted on"
+msgstr "Lähetetty"
+
+#: templates/loop/meta.php:79
+#, php-format
+msgid ""
+"By <span class=\"post-author\"><a href=\"%1$s\" class=\"post-author-link\" "
+"rel=\"author\"><span class=\"post-author-name\">%2$s</span></a></span>"
+msgstr ""
+"Mennessä <span class=\"post-author\"><a href=\"%1$s\" class=\"post-author-"
+"link\" rel=\"author\"><span class=\"post-author-name\">%2$s</span></a></"
+"span>"
+
+#: templates/loop/sticky.php:24
+msgctxt "post"
+msgid "Featured"
+msgstr "Kiinnostavat"
+
+#: templates/single/meta.php:75
+#, php-format
+msgid ""
+"By <a href=\"%1$s\" class=\"post-author-link\" rel=\"author\"><span class="
+"\"post-author-name\">%2$s</span></a>"
+msgstr ""
+"Mennessä <span class=\"post-author\"><a href=\"%1$s\" class=\"post-author-"
+"link\" rel=\"author\"><span class=\"post-author-name\">%2$s</span></a></"
+"span>"
+
+#: woocommerce/header-cart-link.php:29
+msgid "View your basket"
+msgstr "Näytä korisi"
+
+#: woocommerce/global/breadcrumb.php:72
+#, php-format
+msgid "No Woocommerce Breadcrumb for this type [%s] yet!"
+msgstr "Tälle tyypille ei vielä ole Woocommerce-leipää [% s]!"
+
+#: woocommerce/global/quantity-input.php:20
+#: woocommerce/global/quantity-input.php:41
+#, php-format
+msgid "%s quantity"
+msgstr "%s määrä"
+
+#: woocommerce/global/quantity-input.php:20
+msgid "Quantity"
+msgstr "Määrä"
+
+#: woocommerce/global/quantity-input.php:35
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Määrä"
+
+#: woocommerce/global/breadcrumbs/account.php:25
+msgid "Account"
+msgstr "Tili"
+
+#: woocommerce/single-product/pagination.php:29
+msgid "More products"
+msgstr "Lisää tuotteita"
+
+#: woocommerce/single-product/pagination.php:36
+msgid "Display Previous Product"
+msgstr "Näytä edellinen tuote"
+
+#: woocommerce/single-product/pagination.php:48
+msgid "Display Next Product"
+msgstr "Näytä seuraava tuote"

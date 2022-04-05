@@ -1,0 +1,254 @@
+//
+// Components - Navigation, Pagination & Dropdown styling
+//
+
+// Main navigation
+.navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+
+	.main-navigation {
+		background-color: $color__menu-background;
+	}
+
+	.navbar-toggler {
+		padding: 0.75rem;
+
+		.hamburger-icon {
+			width: 2.25rem;
+			height: 1.5rem;
+			position: relative;
+			cursor: pointer;
+
+			.hamburger-bar {
+				display: block;
+				position: absolute;
+				height: 3px;
+				width: 100%;
+				background: $color__menu-text;
+				border-radius: 0;
+				opacity: 1;
+				left: 0;
+
+				&:nth-child(1) { top: 0; }
+				&:nth-child(2) { top: 10.5px; }
+				&:nth-child(3) { top: 21px; }
+			}
+		}
+	}
+}
+
+.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.navbar-light {
+
+	.navbar-nav {
+		.nav-link {
+			color: $color__menu-text;
+			padding: 0.625rem 0.875rem;
+			min-width: 8rem;
+			text-align: center;
+			&.active {
+				color: $color__menu-text;
+				background-color: $color__menu-background-active;
+			}
+
+			&:hover,
+			&:focus {
+				color: $color__menu-text;
+				background-color: $color__menu-background-alt;
+				outline: none;
+			}
+		}
+	}
+
+	.navbar-toggler {
+		border: none;
+		border-radius: 0;
+		color: $color__menu-text;
+		transition: var(--link-transition);
+		background-color: $color__menu-background-alt;
+		
+		&:hover {
+			background-color: $color__menu-background-active;
+		}
+	}
+}
+
+.dropdown-menu {
+	min-width: 12rem;
+	padding: 0.625rem 0;
+	background-color: $color__menu-background-alt;
+	border: none;
+	border-radius: 0;
+
+	.dropdown-item {
+		padding: 0.5rem 0.875rem;
+		color: $color__menu-text;
+		background-color: $color__menu-background-alt;
+	
+		&:hover {
+			color: $color__menu-text;
+			background-color: $color__menu-background-active;
+		}
+	}
+}
+
+// Comment & Post ?
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-content & {
+		margin: 0 0 1.5em;
+	}
+
+	.nav-links {
+		display: flex;
+	}
+
+	.nav-previous {
+		flex: 1 0 50%;
+	}
+
+	.nav-next {
+		flex: 1 0 50%;
+	}
+}
+
+//
+// Pagination
+//
+
+// Numbered pagination
+nav.navigation {
+	display: block;
+	padding: 1.625rem 0 0;
+}
+
+.nav-links {
+	.page-numbers {
+		padding: 0.5rem 0.625rem;
+		margin: 0 0.125rem;
+		border: 1px solid $color__input-border;
+		line-height: 1;
+		text-decoration: none;
+		border-radius: 0;
+		font-weight: var(--font-weight-bold);
+		&.current {
+			color: $color__text-primary;
+		    background: $color__highlight;
+		}
+		&.dots {
+			color: $color__text-primary;
+			font-weight: var(--font-weight-bold);
+		}
+	}
+	a {
+		&.page-numbers {
+			color: $color__text-primary;
+			&:hover {
+				background: $color__highlight;
+			}
+		}
+		&.next,
+		&.prev {
+			padding: 0.5rem 0.875rem;
+			color: var(--color-white);
+			background-color: $color__primary;
+			&:hover {
+				background-color: $color__primary;
+				filter: brightness(var(--color-filter-hover-light)) saturate(var(--color-filter-hover-saturate));
+			}			
+		}
+	}
+	.dots {
+		text-align: center;
+		line-height: 0.5;
+	}
+}
+	
+@media only screen and (min-width: 592px) {
+	nav.navigation {
+		.nav-links {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			
+			.nav-next,
+			.nav-previous {
+				flex: 0 1 auto;
+				margin-bottom: inherit;
+				margin-top: inherit;
+			}
+			.nav-previous {
+				margin-right: 0.625rem;
+			}
+			.nav-next {
+				margin-left: 0.625rem
+			}
+		}
+	}
+}
+
+// Next & Prev Pagination
+.paginate {
+	display: block;
+	padding: 0.625rem 0;
+
+	nav.pagination {
+		display: flex;
+		justify-content: center;
+	}
+
+	.nav-next,
+	.nav-previous {
+		a {
+			padding: 0.375rem 1.375rem;
+			color: var(--color-white);
+			background-color: $color__primary;
+			border-radius: 0;
+			&:hover {
+				background-color: $color__primary;
+				filter: brightness(var(--color-filter-hover-light)) saturate(var(--color-filter-hover-saturate));
+			}			
+		}
+	}
+	.nav-left {
+		margin-right: 0.625rem;
+	}
+	.nav-right {
+		margin-left: 0.625rem;
+	}
+
+	&.paginate-center {
+		.nav-links,
+		nav.pagination {
+			justify-content: center;
+		}
+	}
+
+	&.paginate-between {
+		.nav-links,
+		nav.pagination {
+			justify-content: space-between;
+		}
+	}
+
+	&.paginate-around {
+		.nav-links,
+		nav.pagination {
+			justify-content: space-around;
+		}
+	}
+
+	&.paginate-evenly {
+		.nav-links,
+		nav.pagination {
+			justify-content: space-evenly;
+		}
+	}
+}
