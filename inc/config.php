@@ -18,6 +18,7 @@ $ip_suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 
 //----------------------------------------------------------------------
 // Theme Scripts, Styles & Fonts
+// =============================
 //
 // // Set up scripts
 // return [
@@ -78,61 +79,6 @@ $ip_suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 //   // Script attributes ( defer, async, integrity ) : [ 'label' => [ [ 'handle', key ], ...] ]
 //   'attr' => []
 // ];
-//
-// // Set up styles
-// return [
-//
-//   // Core styles: [ 'script-name', 'script-name2' ... ]
-//   'core' => [],
-//
-//   // Admin styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
-//   'admin' => [],
-//
-//   // External styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
-//   'external' => [],
-//
-//   // Header styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
-//   'header' => [],
-//
-//   // Plugin styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
-//   'plugins' => [],
-//
-//   // Page styles: [ 'label' => [ 'template', 'path_url', (array)dependencies, 'version', 'media' ] ... ]
-//   'page' => [],
-//
-//   // Store page styles: [ 'label' => [ 'template', 'path_url', (array)dependencies, 'version', 'locale' ] ... ];
-//   'store' => [],
-//
-//   // Front page styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
-//   'front' => [],
-//
-//   // Login page styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
-//   'login' => [],
-//
-//   // Print only styles: [ 'label' => [ 'path_url', (array)dependencies, 'version' ] ... ]
-//   'print' => [],
-//
-//   // Theme styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
-//   'theme'  => [
-//     'theme' => [ IPRESS_CHILD_URL . '/style.css', [], NULL ]
-//   ],
-//
-//   // Inline style: [ 'label' => [ [ 'handle', key ], ...] ]
-//   'inline' => []
-//
-//   // Style attributes ( defer, async, integrity ): [ 'label' => [ [ 'handle', key ], ...] ]
-//   'attr' 	=> []
-// ];
-//
-// // Set up custom fonts
-// $ip_fonts = [
-//
-//   // Font families to merge
-//   return [
-//     'OpenSans:300,300i,400,400i,600,600i,800,800i',
-//     'Roboto:500,700'
-//   ];
-// ];
 //----------------------------------------------------------------------
 
 // Register Scripts, Styles & Fonts: Scripts, override at lower priority
@@ -191,6 +137,56 @@ add_filter( 'ipress_scripts', function() use( $ip_suffix ) {
 	];
 } );
 
+//----------------------------------------------------------------------
+// Theme Scripts, Styles & Fonts
+// =============================
+//
+// // Set up styles
+// return [
+//
+//   // Core styles: [ 'script-name', 'script-name2' ... ]
+//   'core' => [],
+//
+//   // Admin styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
+//   'admin' => [],
+//
+//   // External styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
+//   'external' => [],
+//
+//   // Header styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
+//   'header' => [],
+//
+//   // Plugin styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
+//   'plugins' => [],
+//
+//   // Page styles: [ 'label' => [ 'template', 'path_url', (array)dependencies, 'version', 'media' ] ... ]
+//   'page' => [],
+//
+//   // Store page styles: [ 'label' => [ 'template', 'path_url', (array)dependencies, 'version', 'locale' ] ... ];
+//   'store' => [],
+//
+//   // Front page styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
+//   'front' => [],
+//
+//   // Login page styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
+//   'login' => [],
+//
+//   // Print only styles: [ 'label' => [ 'path_url', (array)dependencies, 'version' ] ... ]
+//   'print' => [],
+//
+//   // Theme styles: [ 'label' => [ 'path_url', (array)dependencies, 'version', 'media' ] ... ]
+//   'theme'  => [
+//     'theme' => [ IPRESS_CHILD_URL . '/style.css', [], NULL ]
+//   ],
+//
+//   // Inline style: [ 'label' => [ [ 'handle', key ], ...] ]
+//   'inline' => []
+//
+//   // Style attributes ( defer, async, integrity ): [ 'label' => [ [ 'handle', key ], ...] ]
+//   'attr' 	=> []
+// ];
+//----------------------------------------------------------------------
+
 // Register Scripts, Styles & Fonts: Styles, override at lower priority
 add_filter( 'ipress_styles', function() use( $ip_suffix ) {
 
@@ -222,6 +218,28 @@ add_filter( 'ipress_styles', function() use( $ip_suffix ) {
 	];
 } );
 
+//----------------------------------------------------------------------
+// Theme Scripts, Styles & Fonts
+// =============================
+//
+// // Set up custom fonts, via Google
+// $ip_fonts = [
+//   return [
+//		'family' => [
+//			[
+//				'font-family' 	=> 'Montserrat',
+//				'font-weight'	=> [ 600, 700 ]
+//			],
+//			[
+//				'font-family' 	=> 'Roboto',
+//				'font-weight'	=> [ 300, 400, 500, 700 ]
+//			]
+//		],
+//		'media' => 'screen'
+//   ];
+// ];
+//----------------------------------------------------------------------
+
 // Register Scripts, Styles & Fonts: Fonts, override at lower priority
 add_filter( 'ipress_fonts', function() {
 	return [];
@@ -229,9 +247,9 @@ add_filter( 'ipress_fonts', function() {
 
 //--------------------------------------------------------------
 //	Theme Custom Post Types & Taxonomies
+//	====================================
 //
 // @see https://codex.wordpress.org/Function_Reference/register_post_type
-// @see https://codex.wordpress.org/Function_Reference/register_taxonomy
 //
 // $post_types = [
 //   'cpt' => [
@@ -247,6 +265,18 @@ add_filter( 'ipress_fonts', function() {
 //     ],
 //   ]
 // ];
+// ----------------------------------------------------------
+
+// Register Custom Post Types, override at lower priority
+add_filter( 'ipress_post_types', function() {
+	return [];
+} );
+
+//--------------------------------------------------------------
+//	Theme Custom Post Types & Taxonomies
+//	====================================
+//
+// @see https://codex.wordpress.org/Function_Reference/register_taxonomy
 //
 // $taxonomies = [
 //   'cpt_tax' => [
@@ -263,11 +293,6 @@ add_filter( 'ipress_fonts', function() {
 //    ]
 //  ];
 // ----------------------------------------------------------
-
-// Register Custom Post Types, override at lower priority
-add_filter( 'ipress_post_types', function() {
-	return [];
-} );
 
 // Register taxonomies, override at lower priority
 add_filter( 'ipress_taxonomies', function() {
@@ -320,6 +345,11 @@ add_filter( 'ipress_default_sidebars', function() {
 			'class'       => 'sidebar-header',
 		],
 	];
+} );
+
+// Generate footer sidebars, override at lower priority
+add_filter( 'ipress_footer_sidebars', function() {
+	return []; // or, false for numerical sidebars
 } );
 
 //----------------------------------------------
